@@ -26,6 +26,12 @@ pip install nltk
 pip install matplotlib
 ```
 
+## Prediction Technology
+
+The prediction was done by loading several features into a python dictionary, then using a similarity feature on those features to all items in the database a few times per second to identify which signs are most likely to be nearby. This is then returned to the user using a tkinter application in Python. 
+
+The recognition for this is done with a Kinect v1.
+
 ## Authors
 
 * **Shareef Ali** - *Researcher* - [shareefalis](https://github.com/shareefalis)
